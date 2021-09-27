@@ -1,0 +1,274 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: #0f4711;
+    padding-left: 1%;
+    padding-right: 1%;
+    box-sizing: border-box;
+}
+.navbar{
+    background-color: #d5ded5;
+    height: 120px;
+    display: flex;
+    align-items: center;
+}
+.LOGO{
+    width: 90px;
+    cursor: pointer;
+}
+.inst{
+    width: 20px;
+}
+.face{
+    width: 20px;
+}
+.twit{
+    width: 20px;
+}
+.nav{
+    flex: 1;
+    text-align: right;
+   
+}
+.nav ul il{
+    list-style: none;
+    display: inline-block;
+    margin-left: 20px;
+}
+.nav ul il a{
+    text-decoration: none;
+    color: #0f4711;
+    cursor: pointer;
+    width: 180px;
+    padding: 18px 18px;
+    border-radius: 20px;
+    
+    
+}
+.nav ul il a:hover{
+    background-color: whitesmoke;
+    width: 180px;
+    transition:0.5s ease;
+}
+body{
+    background-color:#0f4711 ;
+    padding-left: 1%;
+    padding-right: 1%;
+    box-sizing: border-box;
+    color:whitesmoke;
+}
+.row{
+    display: flex;
+    height: 400px;
+    
+
+}
+.card1{
+    background-color:#d5ded5 ;
+    color: #0f4711;
+    border-radius: 20px 20px;
+    transition: transform 0.5s;
+    cursor: pointer;
+    
+}
+.image2{
+    width: 630px;
+    position: relative;bottom: 10px;
+    
+}
+.card2{
+    color: #0f4711;
+    background-color:#d5ded5;
+    position: relative; left: 81px;
+    border-radius: 20px 20px;
+    transition: transform 0.5s;
+    cursor: pointer;
+}
+.end{
+    background-color: #d5ded5;
+    height: 120px;
+    display: flex;
+
+}
+h4{
+    color: #0f4711;
+    position: relative;
+    top: 20px;
+}
+.links il a{
+    color: #0f4711;
+    text-decoration: none;
+    padding: 12px 12px
+    
+}
+.card1:hover{
+  transform: translateY(-10px);
+}
+.card2:hover{
+    transform: translateY(-10px);
+  }
+  .links il a:hover{
+    background-color: whitesmoke;
+    width: 180px;
+    transform: translateY(10px);
+    transition:0.5s ease;
+    border-radius: 50px;
+    height: 50px;
+    
+    
+  }
+  .links {
+      position: relative; top: -70px;
+      
+
+  }
+
+  .login{
+      width: 320px;
+      height: 420px;
+      background-color: whitesmoke;
+      color:whitesmoke;
+      box-sizing: border-box;
+      position:relative; left: 560px; top: 90px;
+      padding: 70px 20px;
+      opacity: 0.8;
+      border-radius: 20px;
+
+    
+  }
+
+  .avatar{
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      position: absolute;
+      top: -30px;
+      left: 110px;
+  }
+  .login p{
+      margin: 0;
+      padding: 0;
+      font-weight: bold;
+  }
+  .login input{
+      width: 100px;
+      margin-bottom: 20px;
+  }
+  .login input[type="text"] , input[type="password"]{
+      border: none;
+      border-bottom: 1px solid #0f4711;
+      background: transparent;
+      outline: none;
+      height: 40px ;
+      width: 250px;
+  }
+  .login input[type="submit"]{
+      border: none;
+      outline: none;
+      height: 40px;
+      background-color: #0f4711;
+      border-radius: 20px;
+      color: whitesmoke;
+      font-weight: bold;
+      font-size: 20px;
+
+  }
+  .login input[type="submit"]:hover{
+    cursor: pointer;
+
+  }
+  .login a{
+      text-decoration: none;
+      color: #0f4711;
+  }
+  .gallery{
+      text-align: center;
+      width: 90%;
+      margin: auto;
+      display: grid;
+      grid-template-columns:repeat(3,1fr);
+      grid-gap: 30px;
+
+  }
+  .picture{
+      position: relative;
+      height: 300px;
+      border-radius: 20px;
+      box-shadow: 8px 8px 8px black;
+      cursor: pointer;
+  }
+  .picture img{
+      width: 100%;
+      height: 100%;
+      border-radius: 20px;
+      transition: transform 0.5s;
+  }
+ .picture img:hover{
+    
+    transform: translateY(-10px);
+ }
+ 
+ .account{
+     width: 320px;
+     height: 800px;
+     position: relative;
+     top: 100px;
+     left: 600px;
+     background-color: #d5ded5;
+     padding: 10px 10px;
+     color: #0f4711;
+     border-radius: 40px;
+     opacity: 0.8;
+
+ }
+
+ .acclogo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 60px;
+    left: 100px;
+ }
+
+ .account h1{
+     position: relative;
+     bottom: 60px;
+ }
+
+ .account input{
+     width: 100px;
+     height: margin-bottom: 20px;
+ }
+ .account input[type="text"] , input[type="password"] , input[type="mail"]{
+     border: none;
+     border-bottom: 1px solid #0f4711;
+     background: transparent;
+     outline: none;
+     height: 40px ;
+     width: 250px;
+     
+ }
+
+ .account input[type="submit"]{
+     border: none;
+     height: 40px;
+     width: 300px;
+     background-color:#0f4711 ;
+     color: whitesmoke;
+     border-radius: 20px;
+ } 
+
+ 
+ .account input[type="submit"]:hover{
+     cursor: pointer;
+ }
+
+  
